@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Application Form</title>
+    <link rel="stylesheet" href="banking.css">
+</head>
+<body>
+
+    <header class="top-header">
+        <h1>Bank Application Form</h1>
+        <nav class="navbar">
+            <div class="logo">SBI</div>
+            <ul class="menu">
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Logout</a></li>                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login-card">
+            <h2>Login</h2>
+            <form class="login-form" id="bankLoginForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter password" required>
+                </div>
+                <button type="submit">Access Dashboard</button>
+            </form>
+            <div id="message"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
